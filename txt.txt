@@ -1,0 +1,53 @@
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore, { Navigation, Pagination, Thumbs } from "swiper";
+import "swiper/swiper-bundle.css";
+
+SwiperCore.use([Navigation, Pagination, Thumbs]);
+
+function Review() {
+  return (
+    <>
+      <Swiper
+        navigation
+        pagination
+        spaceBetween={10}
+        breakpoints={{
+          // when window width is >= 640px
+          // when window width is >= 768px
+          640: {
+            width: 640,
+            slidesPerView: 1,
+          },
+          768: {
+            width: 768,
+            slidesPerView: 3,
+          },
+          1024: { width: 1024, slidesPerView: 5 },
+        }}
+      >
+        <>
+          <SwiperSlide className=" flex h-md bg-green-100 items-center ">
+            “It’s nice knowing that I don’t have to give the LARQ the "sniff
+            test" before each fill up.”
+          </SwiperSlide>
+          <SwiperSlide className="flex h-md ">
+            “Say goodbye to your reusable bottle’s persistent funk–and hello to
+            this Jetsons-worthy update.”
+          </SwiperSlide>
+          <SwiperSlide className="flex h-md  ">3</SwiperSlide>
+          <SwiperSlide className="flex h-md  ">
+            “It quickly became my favorite water bottle over my Hydro Flask,
+            S'well, and BKR bottles.”
+          </SwiperSlide>
+          <SwiperSlide className="flex h-md  bg-red-100">
+            “Go ahead, back-wash away. Your dirty mouth-stink will be
+            neutralized soon enough.”
+          </SwiperSlide>
+        </>
+      </Swiper>
+    </>
+  );
+}
+
+export default Review;
