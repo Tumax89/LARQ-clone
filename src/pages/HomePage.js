@@ -1,4 +1,6 @@
 import React from "react";
+import Blax from "../bla";
+
 import HeroSection from "../components/HeroSection";
 import Navbar from "../components/Navbar/Navbar";
 import SimpleSlider from "../components/Review";
