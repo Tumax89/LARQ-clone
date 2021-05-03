@@ -4,7 +4,7 @@ import data from "../../data/data";
 const DropdownMenu = () => {
   return (
     <>
-      <div className="flex absolute z-50 left-0 top-12 justify-between items-center w-full h-md px-0   xl:px-14 bg-gray-200">
+      <div className="flex absolute z-50 left-0 top-12 justify-between items-center w-full h-md px-0   xl:px-14 bg-gray-100">
         <div className="flex h-full  w-9/12 ">
           {data.products.map((products) => (
             <div key={products.id} className="block   m-2 z-50">

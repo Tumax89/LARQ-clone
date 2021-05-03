@@ -9,7 +9,11 @@ module.exports = {
       xmd: "400px",
       lg: "500px",
       xl: "600px",
+      650: "650px",
       xxl: "700px",
+    },
+    fontFamily: {
+      sans: ["Roboto", "sans-serif"],
     },
   },
 };

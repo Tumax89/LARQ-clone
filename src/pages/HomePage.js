@@ -1,7 +1,7 @@
 import React from "react";
-import Blax from "../bla";
-
+import HeroInner from "../components/HeroInner";
 import HeroSection from "../components/HeroSection";
+
 import Navbar from "../components/Navbar/Navbar";
 import SimpleSlider from "../components/Review";
 import Trending from "../components/Trending";
@@ -13,6 +13,7 @@ const HomePage = () => {
       <HeroSection />
       <SimpleSlider />
       <Trending />
+      <HeroInner />
     </div>
   );
 };

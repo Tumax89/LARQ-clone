@@ -4,7 +4,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const Trending = () => {
+const Meslider = () => {
   const settings = {
     dots: true,
     infinite: true,
@@ -20,14 +20,7 @@ const Trending = () => {
         },
       },
       {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 640,
+        breakpoint: 728,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
@@ -36,40 +29,37 @@ const Trending = () => {
     ],
   };
   return (
-    <div className="flex flex-col h-xl lg:h-xxl  px-4 xl:px-10 pt-16 pb-24">
+    <div className="flex flex-col h-xl lg:h-xxl  px-4 xl:px-16 pt-16 pb-24 ">
       <h1 className="flex text-6xl font-semibold text-blue-900 items-center justify-center ">
         Treding now
       </h1>
-      <div className="flex flex items-center justify-center pt-6 pr-8">
+      <div className="flex items-center justify-center pt-6 pr-8">
         <div className=" border-b-4 w-12 border-red-400  mb-24 sm:mb-12"></div>
       </div>
       <Slider {...settings} className="">
         {trendingData.products.map((products) => (
-          <div key={products.id} className="flex relative flex-col">
-            <div className="group shadow-lg bg-blue-900 transition-all duration-500 ease-in-out mx-4">
+          <div key={products.id} className="flex relative flex-col mx-2 ">
+            <div className="group shadow-lg transition-all duration-500 ease-in-out mx-4">
               <img
-                className="flex  group-hover:opacity-75 h-full  p-0 w-full"
+                className="flex  group-hover:opacity-25 h-full lg:p-8  xl:p-12 p-0 w-full"
                 src={products.image}
                 alt={products.name}
               />
               <div className="absolute opacity-0 group-hover:opacity-100  w-full  bottom-2/4  transition-all  duration-1000 ease-in-out ">
-                <p className="flex pb-4 justify-center pr-16 text-white font-extrabold text-base">
-                  Select size:
-                </p>
-                <div className="flex h-12 items-center justify-center pr-12 ">
-                  <button className="border-2 border-white text-white mx-4 lg:px-8 px-2 py-2 hover:bg-white hover:text-blue-800 transition-all  duration-1000 ease-in-out">
+                <div className="flex h-12 justify-center">
+                  <button className="text-center ring-2  px-8 py-2 mr-2 ml-2  ">
                     17 oz
                   </button>
-                  <button className="border-2 border-white text-white hover:bg-white hover:text-blue-800 lg:px-8 px-2 py-2 transition-all  duration-1000 ease-in-out">
+                  <button className="text-center ring-2  px-8 mr-2 ml-2   ">
                     25 oz
                   </button>
                 </div>
               </div>
             </div>
-            <div className="px-8 text-blue-400 text-xs  pt-6 cursor-text sm:text-base sm:pt-2 ">
+            <div className="lg:px-12 text-blue-400 text-xs  pt-6 sm:text-base sm:pt-2">
               {products.title}
             </div>
-            <div className="pt-2 px-8 font-extrabold text-base cursor-text text-blue-900 sm:text-xl">
+            <div className="pt-2 lg:px-12 font-extrabold text-base text-blue-900 sm:text-xl ">
               {products.name}
             </div>
           </div>
@@ -79,4 +69,4 @@ const Trending = () => {
   );
 };
 
-export default Trending;
+export default Meslider;
