@@ -18,7 +18,8 @@ const HeroInner = () => {
           alt={cropped}
           className="object-cover w-full  sm:hidden"
         />
-        <div className="h-lg z-0  absolute w-4/6 top-36 right-20 xl:w-3/12 lg:w-4/12 md:right-36 ">
+
+        <div className="h-lg z-0  absolute w-4/6 top-36 right-14 xs:right-20  md:right-36 xl:w-3/12 lg:w-4/12 ">
           <h2 className=" leading-10 tracking-wide text-3xl  pb-12  text-blue-900 md:text-5xl font-semibold text-center  lg:text-left ">
             LARQ Bottle PureVis™
           </h2>
@@ -36,14 +37,14 @@ const HeroInner = () => {
         <div className="mb-10 lg:mb-0 relative w-full lg:w-6/12  mr-6 bg-new-blue ">
           <img src={pitcher} alt={pitcher} className="z-0" />
 
-          <div className="absolute z-10 top-1/4 xl:top-1/3 w-5/12 sm:w-4/12 lg:w-5/12  xl:w-6/12 right-6  sm:right-24 lg:right-6  flex flex-col ">
-            <h2 className="font-bold text-xl xl:text-4xl md:text-3xl text-blue-900  ">
+          <div className="absolute z-10 top-1/4 xl:top-5/12 w-7/12 xs:w-5/12 sm:w-4/12 lg:w-5/12  xl:w-6/12 p-2  right-0 xl:right-12 lg:right-0 md:right-36 sm:right-48 xs:right-16 flex flex-col ">
+            <h2 className="font-bold  text-base xl:text-4xl sm:text-3xl text-blue-900  ">
               LARQ Pitcher PureVis™
             </h2>
-            <p className="mt-4 xl:mb-10 lg:mb-2 sm:mb-14 sm:mt-6 text-gray-400 sm:text-xl tracking-wider">
+            <p className="mt-0 sm:mt-2 xl:mb-10 lg:mb-2 sm:mb-14 sm:mt-6  lg:mt-6 text-gray-400 text-sm sm:text-xl tracking-wider">
               Pure water beyond filtration.
             </p>
-            <div className="flex justify-end mt-8  pr-8 xl:pr-12 font-bold underline hover:no-underline cursor-pointer  ">
+            <div className="flex justify-end mt-2 xl:mt-8 lg:mt-4 sm:mt-8 pr-2 sm:pr-8 xl:pr-12 font-bold text-sm sm:text-base underline hover:no-underline cursor-pointer  ">
               Pre-order
             </div>
           </div>
@@ -51,14 +52,14 @@ const HeroInner = () => {
 
         <div className="relative w-full lg:w-6/12 ml-0 lg:ml-6 bg-new-blue">
           <img src={bottle} alt={bottle} className="z-0" />
-          <div className="absolute z-10 top-1/4 xl:top-1/3 w-5/12 sm:w-4/12 lg:w-5/12  xl:w-6/12 right-6  sm:right-24 lg:right-6  flex flex-col">
-            <h2 className="font-bold text-xl xl:text-4xl md:text-3xl text-blue-900  ">
+          <div className="absolute z-10 top-1/4 xl:top-5/12 w-7/12 xs:w-5/12 sm:w-4/12 lg:w-5/12  xl:w-6/12 p-2  right-0 xl:right-12 lg:right-0 md:right-36 sm:right-48 xs:right-16 flex flex-col ">
+            <h2 className="font-bold  text-base xl:text-4xl sm:text-3xl text-blue-900 ">
               LARQ Pitcher PureVis™
             </h2>
-            <p className="mt-4 xl:mb-12 lg:mb-2 sm:mb-14 sm:mt-6 text-gray-400 sm:text-xl tracking-wider">
+            <p className="mt-0 sm:mt-2 xl:mb-10 lg:mb-2 sm:mb-14 sm:mt-6  lg:mt-6 text-gray-400 text-sm sm:text-xl tracking-wider">
               Pure water beyond filtration.
             </p>
-            <div className="flex justify-end mt-8 pr-8 xl:pr-12 font-bold underline hover:no-underline cursor-pointer ">
+            <div className="flex justify-end mt-2 xl:mt-8 lg:mt-4 sm:mt-8  pr-2 sm:pr-8 xl:pr-12 font-bold text-sm sm:text-base underline hover:no-underline cursor-pointer  ">
               Shop now
             </div>
           </div>

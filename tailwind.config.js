@@ -16,6 +16,11 @@ module.exports = {
     fontFamily: {
       sans: ["Roboto", "sans-serif"],
     },
-    extend: { colors: { "new-blue": "#eff4fa" } },
+    extend: {
+      colors: { "new-blue": "#eff4fa" },
+      screens: {
+        xs: "475px",
+      },
+    },
   },
 };

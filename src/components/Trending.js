@@ -22,14 +22,14 @@ const Trending = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
           slidesToScroll: 1,
         },
       },
       {
-        breakpoint: 640,
+        breakpoint: 540,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
         },
       },
@@ -37,7 +37,7 @@ const Trending = () => {
   };
   return (
     <div className="flex flex-col  px-4 xl:px-10 pt-16 pb-12">
-      <h1 className="flex text-6xl font-semibold text-blue-900 items-center justify-center ">
+      <h1 className="flex text-3xl md:text-6xl font-semibold text-blue-900 items-center justify-center ">
         Treding now
       </h1>
       <div className="flex flex items-center justify-center pt-6 pr-8">
