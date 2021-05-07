@@ -6,6 +6,7 @@ module.exports = {
       sm: "200px",
       mid: "250px",
       md: "300px",
+      mmd: "370px",
       xmd: "400px",
       lg: "500px",
       xl: "600px",
@@ -15,5 +16,6 @@ module.exports = {
     fontFamily: {
       sans: ["Roboto", "sans-serif"],
     },
+    extend: { colors: { "new-blue": "#eff4fa" } },
   },
 };
