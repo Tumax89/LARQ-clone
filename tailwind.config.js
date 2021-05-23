@@ -2,6 +2,8 @@
 module.exports = {
   theme: {
     height: {
+      118: "118px",
+      140: "140px",
       xs: "170px",
       sm: "200px",
       mid: "250px",
@@ -12,6 +14,8 @@ module.exports = {
       xl: "600px",
       650: "650px",
       xxl: "700px",
+      full: "100%",
+      auto: "auto",
     },
     fontFamily: {
       sans: ["Roboto", "sans-serif"],
@@ -20,6 +24,13 @@ module.exports = {
       colors: { "new-blue": "#eff4fa" },
       screens: {
         xs: "475px",
+      },
+      width: {
+        19.5: "19.5rem",
+        26: "26rem",
+        31.2: "31.2rem",
+        41: "41rem",
+        735: "735px",
       },
     },
   },
