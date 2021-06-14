@@ -25,7 +25,7 @@ const Navbar = () => {
     } else setDropdown(false);
   };
   return (
-    <div className="flex bg-gray-100 h-12  top-0 sticky items-center  justify-between z-50 relative">
+    <div className="flex bg-gray-100 h-12  top-0 sticky items-center  justify-between z-50 relative m-auto  max-w-screen-xl">
       <div
         onClick={toggle}
         className="flex h-12 w-12 transition duration-700 ease-in-out md:hidden"
@@ -44,7 +44,7 @@ const Navbar = () => {
         <img src={logo} alt="" className="flex  pl-12 md:pl-8" />
       </Link>
       <div className="flex">
-        <ul className="  hidden md:flex ">
+        <ul className=" hidden md:flex text-blue-900 font-semibold">
           <li onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
             <Link to="" className="flex p-4 items-center ">
               LARQ bottles <BsCaretDown className="pl-1 text-2xl" />

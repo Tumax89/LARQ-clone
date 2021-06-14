@@ -72,7 +72,10 @@ export default function SimpleSlider() {
     ],
   };
   return (
-    <Slider {...settings} className="relative  border-b-2  ">
+    <Slider
+      {...settings}
+      className="relative  border-b-2 m-auto  max-w-screen-xl "
+    >
       <div className="h-mid">
         <h2 className="px-12 pt-10 text-lg text-center text-blue-900">
           “It’s nice knowing that I don’t have to give the LARQ the "sniff test"

@@ -29,7 +29,7 @@ const Meslider = () => {
     ],
   };
   return (
-    <div className="flex flex-col h-xl lg:h-xxl  px-4 xl:px-16 pt-16 pb-24 ">
+    <div className="flex flex-col h-xl lg:h-xxl  px-4 xl:px-16 pt-16 pb-24 m-auto  max-w-screen-xl">
       <h1 className="flex text-6xl font-semibold text-blue-900 items-center justify-center ">
         Treding now
       </h1>

@@ -51,3 +51,6 @@ function Review() {
 }
 
 export default Review;
+
+
+33 ширхэг дан утастай,

@@ -36,7 +36,7 @@ const Trending = () => {
     ],
   };
   return (
-    <div className="flex flex-col  px-4 xl:px-10 pt-16 pb-12">
+    <div className="flex flex-col  px-4 xl:px-10 pt-16 pb-12 m-auto  max-w-screen-xl">
       <h1 className="flex text-3xl md:text-6xl font-semibold text-blue-900 items-center justify-center ">
         Treding now
       </h1>

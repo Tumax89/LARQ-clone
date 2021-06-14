@@ -7,7 +7,7 @@ import pitcher from "../../img/LARQ_Pitcher.jpeg";
 import bottle from "../../img/LARQ_Bottle_Movement.jpeg";
 const HeroInner = () => {
   return (
-    <>
+    <div className="m-auto  max-w-screen-xl">
       <div className="relative flex h-650 z-0 px-8 mt-0 xl:mt-10 xl:px-14  ">
         <img
           src={img}
@@ -67,7 +67,7 @@ const HeroInner = () => {
         </div>
       </div>
       <div className=""></div>
-      <div className="flex flex-col items-center justify-center mt-6 mb-16   mx-8 xl:mx-14 ">
+      <div className="flex flex-col items-center justify-center mt-6 mb-16 mx-8 xl:mx-14 ">
         <h1 className=" text-4xl sm:text-5xl lg:text-6xl  font-medium text-blue-900 items-center justify-center text-center w-5/12 md:w-4/12 xl:w-3/12 py-6  ">
           A smart way to sip
         </h1>
@@ -151,7 +151,7 @@ const HeroInner = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
