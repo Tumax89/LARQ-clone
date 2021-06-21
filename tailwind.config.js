@@ -42,6 +42,10 @@ module.exports = {
         "1/4": "25%",
         "4/5": "80%",
       },
+      transitionDuration: {
+        0: "0ms",
+        2000: "2000ms",
+      },
     },
   },
 };

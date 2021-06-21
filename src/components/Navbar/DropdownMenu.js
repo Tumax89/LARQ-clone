@@ -18,7 +18,7 @@ const DropdownMenu = () => {
                 <div className="flex text-blue-900 justify-center cursor-pointer pt-6 hover:text-gray-400">
                   {products.name}
                 </div>
-                <div className="flex justify-center text-center text-gray-400 cursor-pointer ">
+                <div className="flex justify-center  text-gray-400 font-thin cursor-pointer ">
                   {products.description}
                 </div>
               </div>
@@ -26,13 +26,13 @@ const DropdownMenu = () => {
           </div>
           <div className="block w-3/12 pl-4 pt-12 h-md   xl:pl-12 ">
             <div className="pb-2 cursor-pointer "> Shop</div>
-            <div className="pb-2 cursor-pointer  text-gray-400 hover:text-blue-900">
+            <div className="pb-2 cursor-pointer  text-gray-400 font-thin hover:text-blue-900">
               All bottles
             </div>
-            <div className="pb-2 cursor-pointer  text-gray-400 hover:text-blue-900">
+            <div className="pb-2 cursor-pointer  text-gray-400 font-thin hover:text-blue-900">
               Limited Edition Sleeve
             </div>
-            <div className="cursor-pointer  text-gray-400 hover:text-blue-900">
+            <div className="cursor-pointer  text-gray-400 font-thin hover:text-blue-900">
               Accessories
             </div>
           </div>

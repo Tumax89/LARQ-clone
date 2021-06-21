@@ -20,7 +20,7 @@ const HeroSection = () => {
         alt={HeroSmall}
         className="object-cover w-full flex sm:hidden "
       />
-      <div className="h-md block z-0 absolute w-5/6 inset-x-9 top-2/4 pt-14 sm:pt-0 lg:left-44 md:w-2/6 md:top-1/4 ">
+      <div className="h-md block z-0 absolute w-5/6 inset-x-9 top-2/4 pt-8 sm:pt-0 lg:left-44 md:w-2/6 md:top-1/4 ">
         <h1 className="text-4xl text-center pb-1 md:pb-6 md:text-left text-blue-900 lg:text-5xl ">
           60 seconds to pure water
         </h1>
